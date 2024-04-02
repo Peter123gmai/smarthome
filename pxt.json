@@ -1,0 +1,35 @@
+{
+    "name": "smarthome - Copy",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "keypad": "github:lioujj/pxt-keypad#febb778e65a5035beadfde2424f02a110d1460c4",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#127c10de32c07df9d274b4ba3594ffef4c2785e1",
+        "microphone": "*",
+        "bluetooth": "*",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "NFC": "github:dochoistem/pxt-NFC#ae4d6dba0bb60f70623b152bff874d1c575ef1e4",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.10",
+        "tag": "v2.0.10",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9b7b5f1d10f133bc9c14ef24e1b8a67333f12c29",
+        "target": "6.0.25",
+        "pxt": "5.15.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
